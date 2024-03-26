@@ -159,7 +159,7 @@ namespace DraggingPictures_22SD_Humam_barjak
 
             if (randomNumber == 1) 
             {
-                randomName = "rock copy";
+                randomName = "rook";
             }
             else if (randomNumber == 2) 
             {
@@ -169,7 +169,7 @@ namespace DraggingPictures_22SD_Humam_barjak
             {
                 randomName = "sisssor";
             }
-            Bitmap bm = new Bitmap("C:\\Users\\strow\\Downloads\\DraggingPictures_22SD_Humam_barjak\\Resources\\" + randomName +".png");
+            Bitmap bm = new Bitmap("C:\\Users\\strow\\Downloads\\DraggingPictures_22SD_Humam_barjak\\" + randomName +".png");
 
             //Sets thee image to the actual picturebox
             pcbBotChange.Image = bm;
